@@ -22,7 +22,8 @@
 }
 
 .img2{
-    border:2px solid gray;
+    margin-top: 30px;
+    border:2px solid whitesmoke;
     text-align: left;
     width:auto;
     height:max-content;
@@ -44,7 +45,31 @@
     border-radius: 20px;
 }
 
-#lat{
-    
-    text-align: left;
+.img4{
+    margin-top: 20px;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+.column {
+    border-radius: 5px;
+    float: left;
+    width: 32%;
+    padding: 5px;
+  }
+  
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+#id1{
+    border-radius: 15px;
+}
+
+#id2{
+    margin-right: 250px;
 }
