@@ -22,7 +22,8 @@
 }
 
 .img2{
-    margin-top: 10px;
+    border:2px solid gray;
+    text-align: left;
     width:auto;
     height:max-content;
     border-radius: 3.125rem;
@@ -30,7 +31,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
     display: flex;
     flex-flow: row nowrap;
     padding: 5.19rem;
@@ -39,12 +39,12 @@
 }
 
 #img3{
-    
-}
-#Search{
-    margin-right: 0%;
+    margin:auto;
+    width: 500px;
+    border-radius: 20px;
 }
 
-#img{
-    padding-right: 50px;
+#lat{
+    
+    text-align: left;
 }
