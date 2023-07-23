@@ -73,3 +73,20 @@ display: table;
 #id2{
     margin-right: 250px;
 }
+#id3{
+    margin-top: 2px;
+    margin-right: 250px;
+}
+.rect{
+    width:auto;
+    height:max-content;
+    border-radius: 3.125rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 5.19rem;
+    align-items: center;
+    justify-content: space-between;
+}
