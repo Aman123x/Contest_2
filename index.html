@@ -1,79 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contest_2</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <nav>
-        <div class="nav">
-            <img src="./head.png" alt="img">
-            <span>| Blog</span>
-            <div >
-                <ul class="navbar_links" role="menu">
-                  <li class="navbar_link" role="menuitem" aria-label="archives">
-                    <img src="./Polygon.png" alt="archives image" aria-hidden="true"/>Archives</li>
-                  <li class="navbar_link" role="menuitem" aria-label="store">
-                    <img src="./store.png" alt="shopping image" aria-hidden="true"/>Store
-                  </li>
-                  <li>
-                    <img src="./Get_a_Quote.png" alt="txt">Get a Quote
-                  </li>
-                </ul>
-              </div>
+  <nav>
+    <div class="nav-col-1">
+      <div>
+        <img src="./assets/logo.svg" alt="logo">
+      </div>
+      <div class="vertical-line"></div>
+      <a href="#" class="nav-btn">Blog</a>
+    </div>
+    <div class="nav-col-2">
+      <a href="#" class="nav-btn"><img src="./assets/Archive.svg">Archive</a>
+      <a href="#" class="nav-btn"><img src="./assets/cart.svg" alt="cart"> Store</a>
+      <div class="mobile-menu"><i class="fa-solid fa-bars"></i></div>
+      <button class="get-a-quote">Get a Quote</button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Let's Explore <br> New Possibilities...</h1>
+      <div class="input-div">
+        <input id="hero-input" placeholder="🔍 How to, etc..">
+        <button id="hero-btn">Search</button>
+      </div>
+      <div class="tags">
+        <p>#Design</p>
+        <p>#Develope</p>
+        <p>#Market</p>
+      </div>
+    </div>
+    <img src="./assets/graphic.svg" alt="graphic">
+  </section>
+  <section class="main-card">
+    <div class="main-card-img">
+      <img src="./assets/Rectangle.svg" alt="img">
+    </div>
+    <div class="main-card-text">
+      <h1>Latest post heading sample tex..</h1>
+      <div class="main-row-1">
+        <p>By Writter Name</p>
+        <p>25 July</p>
+      </div>
+      <p class="main-card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+    </div>
+  </section>
+  <section class="cards">
+    <div class="card">
+      <div id="card-image">
+        <img src="./assets/Rectangle 15.svg" alt="card-image">
+      </div>
+      <div class="card-text">
+        <h1 class="card-heading">Trip to Paris</h1>
+        <div class="card-row-1">
+          <p>By Writter Name</p>
+          <p>25 July</p>
         </div>
-    </nav>
-    <main>
-        <div class="img1">
-            <div>
-                <h1>Let’s Explore <br>New Possibilities...</h1>
-                <img id="search"  src="./Search.png">
-                <img src="./CTA.png">
-                <img id="img2" src="./img2.png">
-            </div>
+        <p id="card-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, sed. Iste voluptates vel nesciunt distinctio.</p>
+        <div class="read-more"><a href="#">Read More</a>
         </div>
-        <div class="img2">
-            <div>
-                <img id="img3" src="./img3.png">
-                <h1 id="lat">Latest post heading sample tex..</h1>
-                <p>By Writter Name</p>
-                <p>23 Dec.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-            </div>
+      </div>
+    </div>
+    <div class="card">
+      <div id="card-image">
+        <img src="./assets/Rectangle 15.svg" alt="card-image">
+      </div>
+      <div class="card-text">
+        <h1 class="card-heading">Trip to Paris</h1>
+        <div class="card-row-1">
+          <p>By Writter Name</p>
+          <p>25 July</p>
         </div>
-        <div class="row">
-            <div class="column">
-              <img id="id1" src="./img4.png" style="width:100%">
-              <h1>Other post heading sample tex...</h1>
-              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
-              <span id="id2">By Writter Name</span>
-              <span>23 Dec.</span>
-              <p id="id3">See full</p>
-            </div>
-            <div class="column">
-              <img id="id1" src="./img4.png" style="width:100%">
-              <h1>Other post heading sample tex...</h1>
-              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
-              <span id="id2">By Writter Name</span>
-              <span>23 Dec.</span>
-              <p id="id3">See full</p>
-            </div>
-            <div class="column">
-              <img id="id1" src="./img4.png" style="width:100%">
-              <h1>Other post heading sample tex...</h1>
-              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
-              <span id="id2">By Writter Name</span>
-              <span>23 Dec.</span>
-              <p id="id3">See full</p>
-            </div>
-          </div>
-    </main> 
-    <footer>
-        <div class="rect">
-            <img src="./Rectangle 4.png">
+        <p id="card-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, sed. Iste voluptates vel nesciunt distinctio.</p>
+        <div class="read-more"><a href="#">Read More</a>
         </div>
-    </footer>
+      </div>
+    </div>
+    <div class="card">
+      <div id="card-image">
+        <img src="./assets/Rectangle 15.svg" alt="card-image">
+      </div>
+      <div class="card-text">
+        <h1 class="card-heading">Trip to Paris</h1>
+        <div class="card-row-1">
+          <p>By Writter Name</p>
+          <p>25 July</p>
+        </div>
+        <p id="card-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, sed. Iste voluptates vel nesciunt distinctio.</p>
+        <div class="read-more"><a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="footer-col-1">
+      <p class="footer-text-1">Download</p>
+      <p class="footer-text-2">Otarea Educore App</p>
+      <p class="footer-text-3">For non stop learning</p>
+      <button class="footer-btn">Download now</button>
+    </div>
+    <div class="footer-col-2">
+      <img src="./assets/Grou.svg" alt="footer_img">
+    </div>
+  </section>
+
 </body>
 </html>
